@@ -1,0 +1,47 @@
+h1, p[id="description"]{
+  text-align:center;
+  color: #000066;
+  text-decoration: underline;
+  margin-right: 42%;
+  margin-left: 42%;
+  background-color: white;
+}
+form{
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;;
+  background-color:rgba(0,0,100,0.8);
+  color:white;
+}
+body{
+  width:100%;
+  margin:0;
+  background: url("https://static.toiimg.com/photo/70188612.cms");
+  background-size: cover;
+  background-attachment: fixed;
+}
+label,input,textarea{
+  display:block;
+  width:100%
+}
+select
+{
+  display:block;
+}
+input{
+  margin-bottom:15px
+}
+label,p{
+  margin-bottom:10px;
+}
+.inline{
+  display:inline;
+  width:unset;
+  margin-bottom:unset;
+}
+input[type="submit"]
+{
+  margin-top:20px;
+  background-color:green;
+}
